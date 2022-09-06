@@ -1,0 +1,59 @@
+{
+  "name": "app",
+  "version": "2",
+  "description": "",
+  "scripts": {
+    "build": "webpack --env NODE_ENV=production --mode=production",
+    "dev": "webpack serve --mode=development"
+  },
+  "main": "lib/index.js",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.12.7",
+    "@svgr/webpack": "^5.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.2.1",
+    "copy-webpack-plugin": "^8.0.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "file-loader": "^6.2.0",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "raw-loader": "^4.0.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "i18next": "^21.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
