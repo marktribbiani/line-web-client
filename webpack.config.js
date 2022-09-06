@@ -9,14 +9,14 @@ module.exports = () => {
       },
       output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public'),
       },
       plugins: [
         new CopyPlugin({
           patterns: [
             {
               from: path.resolve(__dirname, 'src'),
-              to: path.resolve(__dirname, 'dist'),
+              to: path.resolve(__dirname, 'public'),
             },
           ],
         }),
@@ -66,7 +66,7 @@ module.exports = () => {
         ],
       },
       devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
+        contentBase: path.resolve(__dirname, 'public'),
         compress: true,
         port: 3000,
       },
