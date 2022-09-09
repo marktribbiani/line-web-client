@@ -1,3 +1,59 @@
+$primary: #0ec045;
+$min-contrast-ratio: 2;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+  user-select: auto !important;
+  overflow: auto;
+}
+
+#context_menu {
+  display: none;
+}
+
 .MdCMN02ListNew {
   height: auto;
+  width: 100%;
+  left: auto;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#login_wrap_section {
+  width: 360px;
+  left: calc((100% - 360px) / 2);
+  margin-left: 0;
+  padding-left: 0;
+  position: static;
+  margin-top: 30%;
+  margin-bottom: 50px;
+  transform: none;
+}
+
+#login_content {
+  max-width: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  > div {
+    min-height: calc(100vh - 46px);
+  }
+}
+
+.MdCMN02ListNew.MdRegionNod {
+  position: static;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.placeholder-10 {
+  height: 10px;
+}
+
+.placeholder-20 {
+  height: 20px;
 }

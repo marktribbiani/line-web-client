@@ -1,3 +1,6 @@
 {
-  "This is an unofficial Line client": "這是一個非官方的 Line 網頁版\n支援 Line 多帳號登入"
+  "This is an unofficial Line client": "這是一個非官方的開源 Line 網頁版\n- 支援 Line 多帳號登入\n- 支援一鍵架設自己的 Line 網頁版",
+  "Use saved username and password": "使用已儲存的帳號密碼",
+  "Save password": "儲存帳號密碼",
+  "Sign In": "登入"
 }

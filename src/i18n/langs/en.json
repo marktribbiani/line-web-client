@@ -1,3 +1,6 @@
 {
-  "This is an unofficial Line client": "This is an unofficial Line client."
+  "This is an unofficial Line client": "This is an unofficial Line client.\n- Support signing in with multiple Line accounts\n- Support deploying your own Line with one click.",
+  "Use saved username and password": "Use saved username and password",
+  "Save password": "Save password",
+  "Sign In": "Sign In"
 }
